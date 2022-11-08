@@ -1,14 +1,14 @@
 package route
 
 import (
-	"github.com/ztalab/ZAManager/app/base/controller"
-	v1 "github.com/ztalab/ZAManager/app/v1/controlplane/controller"
-	"github.com/ztalab/ZAManager/pconst"
-	"github.com/ztalab/ZAManager/pkg/confer"
-	"github.com/ztalab/ZAManager/route/access"
-	"github.com/ztalab/ZAManager/route/controlplane"
-	"github.com/ztalab/ZAManager/route/system"
-	"github.com/ztalab/ZAManager/route/user"
+	"github.com/ZTDBP/ZAManager/app/base/controller"
+	v1 "github.com/ZTDBP/ZAManager/app/v1/controlplane/controller"
+	"github.com/ZTDBP/ZAManager/pconst"
+	"github.com/ZTDBP/ZAManager/pkg/confer"
+	"github.com/ZTDBP/ZAManager/route/access"
+	"github.com/ZTDBP/ZAManager/route/controlplane"
+	"github.com/ZTDBP/ZAManager/route/system"
+	"github.com/ZTDBP/ZAManager/route/user"
 
 	"github.com/gin-gonic/gin"
 )

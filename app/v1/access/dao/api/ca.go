@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ZTDBP/ZAManager/pkg/confer"
+	"github.com/ZTDBP/ZAManager/pkg/logger"
+	"github.com/ZTDBP/cfssl/helpers"
+	"github.com/ZTDBP/zaca-sdk/caclient"
+	"github.com/ZTDBP/zaca-sdk/keygen"
+	"github.com/ZTDBP/zaca-sdk/pkg/attrmgr"
+	"github.com/ZTDBP/zaca-sdk/pkg/spiffe"
 	"github.com/gin-gonic/gin"
-	"github.com/ztalab/ZAManager/pkg/confer"
-	"github.com/ztalab/ZAManager/pkg/logger"
-	"github.com/ztalab/cfssl/helpers"
-	"github.com/ztalab/zaca-sdk/caclient"
-	"github.com/ztalab/zaca-sdk/keygen"
-	"github.com/ztalab/zaca-sdk/pkg/attrmgr"
-	"github.com/ztalab/zaca-sdk/pkg/spiffe"
 )
 
 var once sync.Once

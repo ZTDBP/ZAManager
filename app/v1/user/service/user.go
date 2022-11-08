@@ -6,18 +6,18 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ztalab/ZAManager/app/v1/controlplane/dao/redis"
+	"github.com/ZTDBP/ZAManager/app/v1/controlplane/dao/redis"
 
 	"github.com/gin-gonic/contrib/sessions"
 
+	"github.com/ZTDBP/ZAManager/app/v1/system/dao/mysql"
+	"github.com/ZTDBP/ZAManager/app/v1/system/service"
+	"github.com/ZTDBP/ZAManager/app/v1/user/dao/api"
+	userDao "github.com/ZTDBP/ZAManager/app/v1/user/dao/mysql"
+	"github.com/ZTDBP/ZAManager/app/v1/user/model/mmysql"
+	"github.com/ZTDBP/ZAManager/pconst"
+	oauth2Help "github.com/ZTDBP/ZAManager/pkg/oauth2"
 	"github.com/gin-gonic/gin"
-	"github.com/ztalab/ZAManager/app/v1/system/dao/mysql"
-	"github.com/ztalab/ZAManager/app/v1/system/service"
-	"github.com/ztalab/ZAManager/app/v1/user/dao/api"
-	userDao "github.com/ztalab/ZAManager/app/v1/user/dao/mysql"
-	"github.com/ztalab/ZAManager/app/v1/user/model/mmysql"
-	"github.com/ztalab/ZAManager/pconst"
-	oauth2Help "github.com/ztalab/ZAManager/pkg/oauth2"
 	"golang.org/x/oauth2/facebook"
 	"golang.org/x/oauth2/google"
 )

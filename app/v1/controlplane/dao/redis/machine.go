@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ztalab/ZAManager/pkg/logger"
+	"github.com/ZTDBP/ZAManager/pkg/logger"
 
+	redisclient "github.com/ZTDBP/ZAManager/pkg/redis"
 	"github.com/gin-gonic/gin"
 	"github.com/go-redis/redis/v8"
-	redisclient "github.com/ztalab/ZAManager/pkg/redis"
 )
 
 type Machine struct {

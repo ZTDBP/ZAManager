@@ -3,13 +3,13 @@ package v1
 import (
 	"strconv"
 
+	"github.com/ZTDBP/ZAManager/app/base/controller"
+	"github.com/ZTDBP/ZAManager/app/v1/system/model/mmysql"
+	"github.com/ZTDBP/ZAManager/app/v1/system/model/mparam"
+	"github.com/ZTDBP/ZAManager/app/v1/system/service"
+	"github.com/ZTDBP/ZAManager/pconst"
+	"github.com/ZTDBP/ZAManager/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/ztalab/ZAManager/app/base/controller"
-	"github.com/ztalab/ZAManager/app/v1/system/model/mmysql"
-	"github.com/ztalab/ZAManager/app/v1/system/model/mparam"
-	"github.com/ztalab/ZAManager/app/v1/system/service"
-	"github.com/ztalab/ZAManager/pconst"
-	"github.com/ztalab/ZAManager/pkg/response"
 )
 
 // @Summary ListOauth2

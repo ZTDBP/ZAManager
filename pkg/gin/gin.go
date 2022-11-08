@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/DeanThompson/ginpprof"
+	"github.com/ZTDBP/ZAManager/pkg/confer"
 	"github.com/gin-gonic/gin"
-	"github.com/ztalab/ZAManager/pkg/confer"
 )
 
 type OnShutdownF struct {

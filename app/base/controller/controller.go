@@ -1,9 +1,9 @@
 package controller
 
 import (
+	"github.com/ZTDBP/ZAManager/pconst"
+	"github.com/ZTDBP/ZAManager/pkg/logger"
 	"github.com/gin-gonic/gin"
-	"github.com/ztalab/ZAManager/pconst"
-	"github.com/ztalab/ZAManager/pkg/logger"
 )
 
 type Res struct {

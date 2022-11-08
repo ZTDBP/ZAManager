@@ -1,8 +1,8 @@
 package controlplane
 
 import (
+	v1 "github.com/ZTDBP/ZAManager/app/v1/controlplane/controller"
 	"github.com/gin-gonic/gin"
-	v1 "github.com/ztalab/ZAManager/app/v1/controlplane/controller"
 )
 
 func APIControlPlane(parentRoute gin.IRouter) {

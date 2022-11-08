@@ -3,12 +3,12 @@ package v1
 import (
 	"strings"
 
-	"github.com/ztalab/ZAManager/app/base/controller"
-	"github.com/ztalab/ZAManager/app/v1/access/model/mparam"
-	"github.com/ztalab/ZAManager/app/v1/access/service"
-	"github.com/ztalab/ZAManager/pconst"
-	"github.com/ztalab/ZAManager/pkg/response"
-	"github.com/ztalab/ZAManager/pkg/util"
+	"github.com/ZTDBP/ZAManager/app/base/controller"
+	"github.com/ZTDBP/ZAManager/app/v1/access/model/mparam"
+	"github.com/ZTDBP/ZAManager/app/v1/access/service"
+	"github.com/ZTDBP/ZAManager/pconst"
+	"github.com/ZTDBP/ZAManager/pkg/response"
+	"github.com/ZTDBP/ZAManager/pkg/util"
 
 	"github.com/gin-gonic/gin"
 )

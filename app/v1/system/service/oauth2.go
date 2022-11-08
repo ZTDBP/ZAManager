@@ -3,10 +3,10 @@ package service
 import (
 	"errors"
 
-	"github.com/ztalab/ZAManager/app/v1/system/dao/mysql"
-	"github.com/ztalab/ZAManager/app/v1/system/model/mmysql"
-	"github.com/ztalab/ZAManager/app/v1/system/model/mparam"
-	"github.com/ztalab/ZAManager/pconst"
+	"github.com/ZTDBP/ZAManager/app/v1/system/dao/mysql"
+	"github.com/ZTDBP/ZAManager/app/v1/system/model/mmysql"
+	"github.com/ZTDBP/ZAManager/app/v1/system/model/mparam"
+	"github.com/ZTDBP/ZAManager/pconst"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/facebook"
 	"golang.org/x/oauth2/github"
