@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ztalab/ZAManager/pkg/confer"
+	"github.com/ZTDBP/ZAManager/pkg/confer"
 
 	migrate "github.com/rubenv/sql-migrate"
 	"gorm.io/driver/mysql"

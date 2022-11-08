@@ -1,8 +1,8 @@
 package mparam
 
 import (
-	"github.com/ztalab/ZAManager/app/base/mdb"
-	"github.com/ztalab/ZAManager/app/v1/access/model/mmysql"
+	"github.com/ZTDBP/ZAManager/app/base/mdb"
+	"github.com/ZTDBP/ZAManager/app/v1/access/model/mmysql"
 )
 
 type ClientList struct {

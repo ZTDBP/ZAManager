@@ -1,22 +1,22 @@
 ![logo](logo.png)
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  [![GoDoc](https://godoc.org/github.com/cloudflare/cfssl?status.svg)](https://github.com/ztalab/ZACA)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)  [![GoDoc](https://godoc.org/github.com/cloudflare/cfssl?status.svg)](https://github.com/ZTDBP/ZACA)
 
-ZAManager is the controller of [ZASentinel](https://github.com/ztalab/ZASentinel)
+ZAManager is the controller of [ZASentinel](https://github.com/ZTDBP/ZASentinel)
 
 ## Features
 
 - Based on [Gin](https://github.com/gin-gonic/gin)
 - Create Resource,Client,Relay,Server
-- Apply certificates from [ZACA](https://github.com/ztalab/ZACA)
+- Apply certificates from [ZACA](https://github.com/ZTDBP/ZACA)
 - Swagger support
 - Oauth2
 
 ## How does it work
 
 1. Users add their Resource,Client,Relay,Server from ZAManager
-2. ZAManager apply certificates from [ZACA](https://github.com/ztalab/ZACA) for each of them
-3. Users download program from  [ZASentinel](https://github.com/ztalab/ZASentinel)
+2. ZAManager apply certificates from [ZACA](https://github.com/ZTDBP/ZACA) for each of them
+3. Users download program from  [ZASentinel](https://github.com/ZTDBP/ZASentinel)
 4. Config certificates for Client,Relay,Server
 
 ![work](work.jpg)
@@ -24,7 +24,7 @@ ZAManager is the controller of [ZASentinel](https://github.com/ztalab/ZASentinel
 ## Building
 
 ```shell
-$ git clone git@github.com:ztalab/ZAManager.git
+$ git clone git@github.com:ZTDBP/ZAManager.git
 $ cd ZAManager
 $ make
 ```
@@ -49,7 +49,7 @@ vim nginx.conf. line 38,chane you own domain
 docker-compose up -d
 ~~~
 
-This will also install [ZACA](https://github.com/ztalab/ZACA) and [ZAPortal](https://github.com/ztalab/ZAPortal)
+This will also install [ZACA](https://github.com/ZTDBP/ZACA) and [ZAPortal](https://github.com/ZTDBP/ZAPortal)
 
 Don't forget change  `zta_oauth2 ` table Oauth2 data in mysql with your owns
 
@@ -59,4 +59,4 @@ working on it
 
 ## License
 
-ZAManager source code is available under the Apache 2.0 [License](https://github.com/ztalab/ZAManager/blob/main/LICENSE).
+ZAManager source code is available under the Apache 2.0 [License](https://github.com/ZTDBP/ZAManager/blob/main/LICENSE).

@@ -7,7 +7,7 @@ import (
 	"net"
 	"regexp"
 
-	"github.com/ztalab/ZAManager/app/v1/user/model/mmysql"
+	"github.com/ZTDBP/ZAManager/app/v1/user/model/mmysql"
 
 	"github.com/gin-gonic/gin"
 )

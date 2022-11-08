@@ -1,4 +1,4 @@
-module github.com/ztalab/ZAManager
+module github.com/ZTDBP/ZAManager
 
 go 1.17
 
@@ -17,8 +17,8 @@ require (
 	github.com/swaggo/gin-swagger v1.3.0
 	github.com/swaggo/swag v1.7.0
 	github.com/urfave/cli v1.22.7
-	github.com/ztalab/cfssl v0.0.3
-	github.com/ztalab/zaca-sdk v0.0.2
+	github.com/ZTDBP/cfssl v0.0.3
+	github.com/ZTDBP/zaca-sdk v0.0.2
 	go.uber.org/automaxprocs v1.5.1
 	go.uber.org/zap v1.21.0
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5

@@ -1,11 +1,11 @@
 package service
 
 import (
-	"github.com/ztalab/ZAManager/app/v1/access/dao/mysql"
-	"github.com/ztalab/ZAManager/app/v1/access/model/mapi"
-	"github.com/ztalab/ZAManager/app/v1/access/model/mmysql"
-	"github.com/ztalab/ZAManager/app/v1/access/model/mparam"
-	"github.com/ztalab/ZAManager/pconst"
+	"github.com/ZTDBP/ZAManager/app/v1/access/dao/mysql"
+	"github.com/ZTDBP/ZAManager/app/v1/access/model/mapi"
+	"github.com/ZTDBP/ZAManager/app/v1/access/model/mmysql"
+	"github.com/ZTDBP/ZAManager/app/v1/access/model/mparam"
+	"github.com/ZTDBP/ZAManager/pconst"
 
 	"github.com/google/uuid"
 

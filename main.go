@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
+	_ "github.com/ZTDBP/ZAManager/docs"
+	"github.com/ZTDBP/ZAManager/server"
 	"github.com/urfave/cli"
-	_ "github.com/ztalab/ZAManager/docs"
-	"github.com/ztalab/ZAManager/server"
 	_ "go.uber.org/automaxprocs"
 )
 

@@ -3,8 +3,8 @@ package redis
 import (
 	"context"
 
+	"github.com/ZTDBP/ZAManager/pkg/confer"
 	"github.com/go-redis/redis/v8"
-	"github.com/ztalab/ZAManager/pkg/confer"
 )
 
 var Client *redis.Client

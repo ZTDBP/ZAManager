@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ztalab/ZAManager/pkg/confer"
-	"github.com/ztalab/ZAManager/pkg/gin"
-	"github.com/ztalab/ZAManager/pkg/middle"
-	"github.com/ztalab/ZAManager/route"
+	"github.com/ZTDBP/ZAManager/pkg/confer"
+	"github.com/ZTDBP/ZAManager/pkg/gin"
+	"github.com/ZTDBP/ZAManager/pkg/middle"
+	"github.com/ZTDBP/ZAManager/route"
 
 	swaggerFiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"

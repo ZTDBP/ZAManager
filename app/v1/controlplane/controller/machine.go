@@ -1,11 +1,11 @@
 package controller
 
 import (
+	"github.com/ZTDBP/ZAManager/app/base/controller"
+	"github.com/ZTDBP/ZAManager/app/v1/controlplane/model/mparam"
+	"github.com/ZTDBP/ZAManager/app/v1/controlplane/service"
+	"github.com/ZTDBP/ZAManager/pkg/response"
 	"github.com/gin-gonic/gin"
-	"github.com/ztalab/ZAManager/app/base/controller"
-	"github.com/ztalab/ZAManager/app/v1/controlplane/model/mparam"
-	"github.com/ztalab/ZAManager/app/v1/controlplane/service"
-	"github.com/ztalab/ZAManager/pkg/response"
 )
 
 // @Summary LoginUrl

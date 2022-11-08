@@ -3,12 +3,12 @@ package mysql
 import (
 	"errors"
 
-	"github.com/ztalab/ZAManager/pkg/util"
+	"github.com/ZTDBP/ZAManager/pkg/util"
 
-	"github.com/ztalab/ZAManager/app/v1/access/model/mmysql"
-	"github.com/ztalab/ZAManager/app/v1/access/model/mparam"
-	"github.com/ztalab/ZAManager/pkg/logger"
-	"github.com/ztalab/ZAManager/pkg/mysql"
+	"github.com/ZTDBP/ZAManager/app/v1/access/model/mmysql"
+	"github.com/ZTDBP/ZAManager/app/v1/access/model/mparam"
+	"github.com/ZTDBP/ZAManager/pkg/logger"
+	"github.com/ZTDBP/ZAManager/pkg/mysql"
 
 	"github.com/gin-gonic/gin"
 

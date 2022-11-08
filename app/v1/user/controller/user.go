@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/ZTDBP/ZAManager/app/v1/user/service"
+	"github.com/ZTDBP/ZAManager/pconst"
+	"github.com/ZTDBP/ZAManager/pkg/response"
+	"github.com/ZTDBP/ZAManager/pkg/util"
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
-	"github.com/ztalab/ZAManager/app/v1/user/service"
-	"github.com/ztalab/ZAManager/pconst"
-	"github.com/ztalab/ZAManager/pkg/response"
-	"github.com/ztalab/ZAManager/pkg/util"
 )
 
 func Login(c *gin.Context) {

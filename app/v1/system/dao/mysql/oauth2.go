@@ -3,9 +3,9 @@ package mysql
 import (
 	"errors"
 
-	"github.com/ztalab/ZAManager/app/v1/system/model/mmysql"
-	"github.com/ztalab/ZAManager/pkg/logger"
-	"github.com/ztalab/ZAManager/pkg/mysql"
+	"github.com/ZTDBP/ZAManager/app/v1/system/model/mmysql"
+	"github.com/ZTDBP/ZAManager/pkg/logger"
+	"github.com/ZTDBP/ZAManager/pkg/mysql"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
