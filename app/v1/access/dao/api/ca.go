@@ -20,12 +20,12 @@ import (
 
 	"github.com/ZTDBP/ZAManager/pkg/confer"
 	"github.com/ZTDBP/ZAManager/pkg/logger"
-	"github.com/ZTDBP/cfssl/helpers"
-	"github.com/ZTDBP/zaca-sdk/caclient"
-	"github.com/ZTDBP/zaca-sdk/keygen"
-	"github.com/ZTDBP/zaca-sdk/pkg/attrmgr"
-	"github.com/ZTDBP/zaca-sdk/pkg/spiffe"
 	"github.com/gin-gonic/gin"
+	"github.com/ztdbp/cfssl/helpers"
+	"github.com/ztdbp/zaca-sdk/caclient"
+	"github.com/ztdbp/zaca-sdk/keygen"
+	"github.com/ztdbp/zaca-sdk/pkg/attrmgr"
+	"github.com/ztdbp/zaca-sdk/pkg/spiffe"
 )
 
 var once sync.Once
