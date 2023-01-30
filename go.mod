@@ -88,3 +88,15 @@ require (
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace (
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.19.0 => github.com/Azure/azure-sdk-for-go/sdk/azcore v1.3.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.7.0 => github.com/Azure/azure-sdk-for-go/sdk/azcore v1.1.2
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.11.0 => github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.2.1
+	github.com/ajstarks/svgo v0.0.0-20180226025133-644b8db467af => github.com/ajstarks/svgo v0.0.0-20211024235047-1546f124cd8b
+	github.com/chzyer/logex v1.1.10 => github.com/chzyer/logex v1.2.1
+	github.com/prometheus/prometheus v2.5.0+incompatible => github.com/prometheus/prometheus/v2 v2.29.2
+	github.com/zmap/rc2 v0.0.0-20131011165748-24b9757f5521 => github.com/zmap/rc2 v0.0.0-20190804163417-abaa70531248
+	github.com/zmap/zcrypto v0.0.0-20220803033029-557f3e4940be => github.com/zmap/zcrypto v0.0.0-20200911161511-43ff0ea04f21
+	google.golang.org/genproto v0.0.0-20221111202108-142d8a6fa32e => google.golang.org/genproto v0.0.0-20220706185917-7780775163c4
+)
