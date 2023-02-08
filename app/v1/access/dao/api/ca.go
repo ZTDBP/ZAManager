@@ -21,11 +21,11 @@ import (
 	"github.com/ZTDBP/ZAManager/pkg/confer"
 	"github.com/ZTDBP/ZAManager/pkg/logger"
 	"github.com/gin-gonic/gin"
+	"github.com/ztalab/zta-tools/attrmgr"
+	"github.com/ztalab/zta-tools/pkg/keygen"
+	"github.com/ztalab/zta-tools/pkg/spiffe"
 	"github.com/ztdbp/cfssl/helpers"
 	"github.com/ztdbp/zaca-sdk/caclient"
-	"github.com/ztdbp/zaca-sdk/keygen"
-	"github.com/ztdbp/zaca-sdk/pkg/attrmgr"
-	"github.com/ztdbp/zaca-sdk/pkg/spiffe"
 )
 
 var once sync.Once
