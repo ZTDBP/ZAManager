@@ -500,12 +500,12 @@ github.com/zmap/zcrypto v0.0.0-20200911161511-43ff0ea04f21 h1:PIpcdSOg3pMdFJUBg5
 github.com/zmap/zcrypto v0.0.0-20200911161511-43ff0ea04f21/go.mod h1:TxpejqcVKQjQaVVmMGfzx5HnmFMdIU+vLtaCyPBfGI4=
 github.com/zmap/zlint/v2 v2.2.1 h1:b2kI/ToXX16h2wjV2c6Da65eT6aTMtkLHKetXuM9EtI=
 github.com/zmap/zlint/v2 v2.2.1/go.mod h1:ixPWsdq8qLxYRpNUTbcKig3R7WgmspsHGLhCCs6rFAM=
-github.com/ztalab/zta-tools v0.0.1 h1:s5o91cDuIQBmLYlWVoC3lbNbNZ6hb/KJI77o5wC1r9c=
-github.com/ztalab/zta-tools v0.0.1/go.mod h1:WZYwDO2P8Dr+wBX04xMtpX7wgceX9ez8fV1iLJPs8dI=
+github.com/ztalab/zta-tools v0.0.2 h1:1IpeojK2vDq+9fRkkQBwMj6n704G4V8uMBeRItoruWY=
+github.com/ztalab/zta-tools v0.0.2/go.mod h1:taF6fgl9yShf4tY4XrMSEZ+OeqDSaLNnepCAiudLM0E=
 github.com/ztdbp/cfssl v0.0.5 h1:qMFmZ/S6JEFPMvLZ8w2zYG1YHlbjM9jvsidODCZ62Sc=
 github.com/ztdbp/cfssl v0.0.5/go.mod h1:3q2R1pZxotIXMSN6I2Rqksh7GiH7oqDZ1s2sIOIjh1w=
-github.com/ztdbp/zaca-sdk v0.0.7 h1:lT64hg7BrbaUTX1v0Y14s3Pv8kCairKslO19+NDsgMs=
-github.com/ztdbp/zaca-sdk v0.0.7/go.mod h1:gMI6aU3JJyGz3wyIkGRjLYB255clf5uJPNNqd4NNTMA=
+github.com/ztdbp/zaca-sdk v0.0.9 h1:lqOOS9AmPNulVt4vuI6PjidDvg+D1mpZRxu8lwXsALw=
+github.com/ztdbp/zaca-sdk v0.0.9/go.mod h1:KH+zzxZlmn60oXzHEBudQkZxGfTn2cAkjYB95boIvo8=
 go.etcd.io/etcd/api/v3 v3.5.0/go.mod h1:cbVKeC6lCfl7j/8jBhAK6aIYO9XOjdptoxU/nLQcPvs=
 go.etcd.io/etcd/client/pkg/v3 v3.5.0/go.mod h1:IJHfcCEKxYu1Os13ZdwCwIUTUVGYTSAM3YSwc9/Ac1g=
 go.etcd.io/etcd/client/v2 v2.305.0/go.mod h1:h9puh54ZTgAKtEbut2oe9P4L/oqKCVB6xsXlzd7alYQ=

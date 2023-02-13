@@ -17,9 +17,9 @@ require (
 	github.com/swaggo/gin-swagger v1.3.0
 	github.com/swaggo/swag v1.7.0
 	github.com/urfave/cli v1.22.7
-	github.com/ztalab/zta-tools v0.0.1
+	github.com/ztalab/zta-tools v0.0.2
 	github.com/ztdbp/cfssl v0.0.5
-	github.com/ztdbp/zaca-sdk v0.0.7
+	github.com/ztdbp/zaca-sdk v0.0.9
 	go.uber.org/automaxprocs v1.5.1
 	go.uber.org/zap v1.24.0
 	golang.org/x/oauth2 v0.0.0-20220622183110-fd043fe589d2
